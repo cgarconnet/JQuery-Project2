@@ -1,6 +1,15 @@
 //  $( ".question" ) that's on the Class name
 // $( "#q1" ) that's on the Id name
 
+  $( ".question" ).click(function() {
+ // 	console.log($(this).next());
+
+	$(this).next().slideToggle( "slow");
+	$(this).children().toggleClass( "collapse");
+
+  })
+
+/*
 $( "#q1" ).click(function() {
 //  alert( "Handler for .click() called." );
 //	console.log($("#q1"));
@@ -36,3 +45,4 @@ $( "#q3" ).click(function() {
 //	$("#arrow1-up").toggleClass("collapse");
 
 });
+*/
