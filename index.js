@@ -7,6 +7,13 @@
 	$(this).next().slideToggle( "slow");
 	$(this).children().toggleClass( "collapse");
 
+($(this).next()).children().toggleClass( "collapse");
+/*	($(this).next()).children().animate({
+		opacity: 0.25,
+		height:"+100"}, 5000, function(){
+				// Animation complete
+		});
+*/
   })
 
 /*

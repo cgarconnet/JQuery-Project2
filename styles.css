@@ -40,3 +40,9 @@ h1 {
 .collapse {
     display: none; /* This is the default */
 }
+
+.image {
+    width: 200px; /* This is the default */
+    display: block; /* This is the default */
+}
+
