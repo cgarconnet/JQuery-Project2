@@ -44,5 +44,7 @@ h1 {
 .image {
     width: 200px; /* This is the default */
     display: block; /* This is the default */
+    opacity: 0.25,
+
 }
 
